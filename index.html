@@ -3,58 +3,131 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
     <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип седоны">
+        <a class="main-header-logo" >
+          <img src="D:\главная (1)\Программирование\Седона\sedona\Логотип.jpg" width="137" height="70" alt="Логотип седоны">
         </a>
          <ul class="top-navigation">
-              <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-              <li><a href="news.html">ФОТО И ВИДЕО</a></li>
-              <li><a href="price.html">КАРТА ШТАТА</a></li>
-              <li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
+              <li><a class=".user-navigation" href="#">ИНФОРМАЦИЯ</a></li>
+              <li><a class=".user-navigation" href="#">ФОТО И ВИДЕО</a></li>
+              <li><a class=".user-navigation" href="#">КАРТА ШТАТА</a></li>
+              <li><a class=".user-navigation" href="hotels.html">ГОСТИНИЦЫ</a></li>
         </ul>
     </nav>
 </header>
- <main class="Sedona_main">
+<main class="Sedona_main">
       <img class="big_picture">
-      <h1 class="visually-hidden">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,  ЗАСЛУЖИВАЮШИЙ БОЛЬШЕГО! </h1>
+    <p class="visually-hidden">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,  ЗАСЛУЖИВАЮШИЙ БОЛЬШЕГО! </p>
      <p class="top_5" >Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <section class="features">
-        <img src="img/index-logo.svg" width="368" height="153" alt="Настоящий городок">
+        <img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\Фото 1,.jpg" width="768" height="258" alt="Настоящий городок">
       </section>
       <ul class="features-list">
           <li class="feature-item">
+            <img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\icon-1.jpg">
             <h3>ЖИЛЬЕ</h3>
             <p>Рекомендуем пожить в настоящем
              <br> мотеле, все как в кино!</p>
              <li class="feature-item">
-            <h3>Еда</h3>
-            <p> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+                <img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\icon-2.jpg">
+                <h3>Еда</h3>
+                <p> Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
           </li>
           <li class="feature-item">
-            <h3>Дорого</h3>
-            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
-             <section class="features">
-          <b><h2 class="Blokc_1">ТАМ ЕСТЬ  Мост дьявола</h2></b>
-          <p>
-            <br> — №2 —  
-            <br> Да, по нему можно пройти!Если конечно 
-                 <br> вы осмелетесь
-         </p>
-      </section>
+            <img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\icon-3.jpg">
+            <h3>Сувениры</h3>
+            <p>Не только китайские но и местного производства</p>
+     <section class="features">
+         <img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\Фото-2.jpg" width="768" height="258" alt="Мост дьявола">
+     </section>
           </li>
         </ul>
-         <ul class="features-list">
-        <li class="feature-item">
-            <h3>Небольшая площадь</h3>
-              <p>-3-
-              Рекомендуем пожить в настоящем
-              <br> мотеле, все как в кино!</p>
-        </li>
-        </ul>
+        <section>
+        <ul>
+         <li>
+             <h3>НЕБОЛЬШАЯ<br> 
+             ПЛОЩАДЬ</h3>
+             <p>-№3-</p>
+             <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br>
+              НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+         </li>
+         <li>
+             <h3>КРАСИВАЯ<br>
+             ДАРОГА</h3>
+             <p>-№4-</p>
+             <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br>
+             НЕ СКУЧНО</p>
+         </li>
+         <li>
+            <h3>МАЛО<br>
+            ТУРИСТОВ</h3>
+            <p>-№5-</p>
+            <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬЬОН И<br>
+             ТОЛПИТСЯ ТАМ</p>
+         </li>
+          </ul>
+      </section>
+         <section class="button">
+             <h1>Заинтересовались</h1>
+             <p>Укажите предпологаемые даты поездки
+                 И мы покажем вам Лучшие предложения гостиниц в Седоне</p>
+            <a href="#" class="button_brown">
+                <p> Поиск гостиницы в седоне</p>
+  	        </a>
+             <form>
+                <ul>
+                    <li><label>Дата заезда<input type="text" placeholder="24 Апреля 2017"></label></li>
+                     <li><label for="check-out"> Дата выезда</label>
+                         <input id="check-out" type="text"  placeholder="4 Июля 2017"></li>
+                     <li>
+                         <div>
+                             <label>Взрослые</label>
+                             <div>
+                                 <button type="button">-</button>
+                                 <input id="adults" type="number" value="3">
+                                 <button type="button">+</button>
+                             </div>
+                         </div>
+                         <div>
+                             <label>Дети</label>
+                         </div>
+                         <div>
+                             <button type="button">-</button>
+                             <input id="children" type="number" value="2">
+                             <button type="button">+</button>
+                         </div>
+                     </li>
+                     <li>
+                        <button class=blue_button>
+                            <p class="white">Найти<p>
+                        </button>
+                     </li>
+                 </ul>
+             </form>
+          </section>
+          <section>
+           <img class=map scr=D:\главная(1)\Программирование\Седона\sedona\map.jpg>
+            </section>
     </main>
+    <footer class="main-footer">
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#"><img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\t.jpg" alt="Твитер"></a></li>
+          <li><a class="social-button" href="#"><img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\fb-icon.jpg" alt="Фейсбук"></a></li>
+          <li><a class="social-button" href="#"><img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\youtube.jpg" alt="Ютуб"></a></li>
+        </ul>
+      </div>
+         <a href="https://htmlacademy.ru"><img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\logo_name.jpg" alt="HTML Academy"></a>
+         <a href="#"><img src="D:\главная (1)\Программирование\Седона\sedona\вырезанные фото\SEDONA.jpg" alt=""></a>
+           <section class="modal modal-map">
+      <span class="modal-close">x</span>
+    </section>
+  </footer> 
   </body>
 </html>
+
