@@ -8,104 +8,88 @@
        url("../font/symbols-sedona.svg?60737633#symbols-sedona") format("svg");
 }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'symbols-sedona';
-    src: url('../font/symbols-sedona.svg?60737633#symbols-sedona') format('svg');
-  }
-}
-*/
-
 [class^="icon-"]:before, [class*=" icon-"]:before {
   display: inline-block;
   width: 1em;
   margin-right: 0.2em;
-  /* Animation center compensation - margins should be symmetric *//* remove if not needed */
   margin-left: 0.2em;
   font-weight: normal;
-  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
   font-family: "symbols-sedona";
   text-align: center;
   text-transform: none;
   text-decoration: inherit;
   font-style: normal;
-  /* opacity: .8; *//* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   speak: none;
-  /* you can be more comfortable with increased icons size *//* font-size: 120%; *//* Uncomment for 3D effect *//* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  
 }
 
 .icon-facebook:before {
   content: "\66";
 }
 
-/* 'f' */
+
 
 .icon-twitter:before {
   content: "\74";
 }
 
-/* 't' */
+
 
 .icon-up-dir:before {
   content: "\25b2";
 }
 
-/* '▲' */
+
 
 .icon-down-dir:before {
   content: "\25bc";
 }
 
-/* '▼' */
+
 
 .icon-star:before {
   content: "\2605";
 }
 
-/* '★' */
+
 
 .icon-check-off:before {
   content: "\2610";
 }
 
-/* '☐' */
+
 
 .icon-check-on:before {
   content: "\2611";
 }
 
-/* '☑' */
+
 
 .icon-calendar:before {
   content: "\e800";
 }
 
-/* '' */
+
 
 .icon-plus:before {
   content: "\e801";
 }
 
-/* '' */
+
 
 .icon-minus:before {
   content: "\e802";
 }
 
-/* '' */
+
 
 .icon-youtube:before {
   content: "\f39e";
 }
 
-/* '' */
+
 
 /* ------------------ стили для страниц ------------------ */
 
@@ -204,7 +188,6 @@ body {
   width: 458px;
   height: 352px;
   margin: 0 auto;
-  /* position:relative; *//* left: 50%; *//* top: 76px; *//* margin-left: -229px; */
 }
 
 .promo:after {
